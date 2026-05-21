@@ -19,7 +19,7 @@ if (container && panel) {
     panel.setAttribute('role', 'group');
     panel.setAttribute('aria-labelledby', 'trigger');
 
-    trigger.innerHTML += icon + `<span> Toggle Content </span> `;
+    trigger.innerHTML += icon + `<span>Toggle Content</span> `;
     
 
     container.prepend(trigger);
